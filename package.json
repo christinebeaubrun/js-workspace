@@ -1,0 +1,25 @@
+{
+  "name": "js-workplace-algorithms",
+  "version": "1.0.0",
+  "description": "learning data structures and algorithms with JS",
+  "main": "add-remove-array.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christinebeaubrun/js-workspace.git"
+  },
+  "author": "Christine Beaubrun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christinebeaubrun/js-workspace/issues"
+  },
+  "homepage": "https://github.com/christinebeaubrun/js-workspace#readme",
+  "devDependencies": {
+    "babel": "^6.5.1",
+    "babel-preset-es2015": "^6.5.0",
+    "chai": "^3.4.1",
+    "mocha": "^2.4.5"
+  }
+}
