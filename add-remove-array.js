@@ -21,4 +21,7 @@ numbers.shift(); // removes the first element in the array
 numbers.push( 10, 11, 12 ); // adds element(s) to the end of an array
 numbers.pop(); // removes the last element in the array
 numbers.splice( 2, 3); // starting at the specified index, it removes all element(s) according to the delete count
+numbers.every(function () {}) // checks if all elements are true via iteration and stops executing if one element is false
+numbers.every(function () {}) // checks if one element is true and continues to iterate until true is achieved
+
 console.log( 'numbers: ', numbers);
