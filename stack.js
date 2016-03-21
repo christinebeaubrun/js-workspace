@@ -13,7 +13,7 @@ export default function () {
 			return ( items.length === 0 );
 		},
 		clear: function () {
-			items = [];
+			items.length = 0;
 		},
 		size: function () {
 			return items.length;
